@@ -12,4 +12,8 @@ SPEC = BotSpec(
     needs_model=False,
     needs_inbox=False,
     summary="Checks the ledger balances; reports only.",
+    examples=(
+        "Check the ledger as of 2026-11-30.",
+        "Does the ledger balance before I close the period?",
+    ),
 )
